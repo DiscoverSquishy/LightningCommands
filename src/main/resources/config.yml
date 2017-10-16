@@ -1,0 +1,43 @@
+Rods:
+  Ban:
+    Item:
+      ID: blaze_rod
+      Name: '&c&lBan Rod'
+      Lore:
+        - '&7Right-Click to summon lightning!'
+        - '&7Those struck by it will be banned.'
+    Commands:
+      - 'ban %player%'
+  Diamond:
+    Item:
+      ID: blaze_rod
+      Name: '&a&lDiamond Rod'
+      Lore:
+        - '&7Right-Click to summon lightning!'
+        - '&7Those struck by it will be given diamonds!'
+    Commands:
+      - 'give %player% diamond 4'
+      - 'message &a&l(!) &aYou''ve been given 4 diamonds!'
+      - 'broadcast &e&l(!) &e%player% was struck by diamond lightning!'
+
+Messages:
+  Config-Reloaded: "&a&l(!) &aConfiguration files reloaded!"
+  Lightning-Summoned: "&a&l(!) &aSuccessfully summoned lightning!"
+  Missing-Permission: "&c&l(!) &cYou need the permission %permission% to do this!"
+  No-Target: "&c&l(!) &cYou must have a location in your sight within 160 blocks!"
+  Player-Offline: "&c&l(!) &c%player% isn't online!"
+  Rod-Given: "&a&l(!) &aRod given to %player%!"
+  Specify-Player: "&c&l(!) &cSpecify a player to give the lightning rod to!"
+  Specify-Rod: "&c&l(!) &cSpecify a rod to give the player!"
+  Unknown-Rod: "&c&l(!) &cThe rod %rod% doesn't exist!"
+  Help:
+    - '&8&l&m--------------------'
+    - '&6&lViewing Usage:'
+    - '&e  Usage: &7/lr'
+    - '&6&lGiving Rods:'
+    - '&e  Usage: &7/lr give <player> <rod name> [amount]'
+    - '&e  Permission: &7lightningcommands.give'
+    - '&6&lReloading Config:'
+    - '&e  Usage: &7/lr reload'
+    - '&e  Permission: &7lightningcommands.reload'
+    - '&8&l&m--------------------'

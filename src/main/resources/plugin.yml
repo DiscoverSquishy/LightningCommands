@@ -1,0 +1,8 @@
+name: LightingCommands
+description: Create lightning that executes commands to players struck by it!
+version: 1.0
+main: me.discoversquishy.lightningcommands.LightningCommands
+commands:
+  lightningrods:
+    description: Base command for the plugin
+    aliases: [lightningrod, lr]

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LightningCommands">
+    <output-path>$USER_HOME$/Desktop/Spigot Builds/Plugin Finals</output-path>
+    <root id="archive" name="LightningCommands.jar">
+      <element id="module-output" name="LightningCommands" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+    </root>
+  </artifact>
+</component>
