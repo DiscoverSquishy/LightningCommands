@@ -12,6 +12,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
+//TODO Add strikeless2go.
 
 public class CmdLightningRods implements CommandExecutor {
     private LightningCommands plugin = LightningCommands.getInstance();
